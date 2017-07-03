@@ -1,0 +1,88 @@
+html{
+  margin: 0 100px 0 100px;
+
+}
+
+
+body{
+    font-family: 'Merriweather', serif;
+    background-color: #F2F1E8;
+    color: #131511;
+  }
+img{
+  height: 35px;
+  width: 35px;
+  padding: 3px;
+  margin-right: 350px;
+
+}
+
+#site-header{
+display: flex;
+flex-wrap: wrap;
+
+}
+
+#site-header div{
+    width: 100%;
+    text-align: center;
+    margin: 50px 0 0 0;
+
+  }
+#site-header div h1{
+  font-size: 50px;
+  line-height: 1;
+  font-weight: normal;
+  margin-bottom: 15px;
+
+}
+
+#site-header div h3{
+    font-size: 27px;
+    line-height: 1;
+    font-weight: normal;
+    margin-top: 0px;
+
+}
+#main-navigation a{
+  margin: 0 25px 0 25px;
+  font-family: 'Roboto', sans-serif;
+  color: #2B2F26;
+  display: flex;
+  align-items:center;
+}
+  #main-navigation{
+      width: 100%;
+      background: #FFFFFF;
+      display: flex;
+      justify-content: flex-start;
+      position: fixed;
+    }
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+main div{
+
+
+}
+
+#prod1 img{
+  position: relative;
+  height: 270px;
+  width: 500px;
+}
+
+div p{
+  position: absolute;
+  color: white;
+  top: 200px;
+ left: 0;
+
+}
+
+
+}
